@@ -214,18 +214,22 @@ footer > img {
     position: relative;
     top:3px;
 }
-.social-media {
-    background-color: white;
-    width:8rem;
-    height: 2rem;
-    -webkit-mask-image: url("images/icon-fb.svg"),url("images/icon-insta.svg"),url("images/icon-twitter.svg");
-    mask-image: url("images/icon-fb.svg"),url("images/icon-insta.svg"),url("images/icon-twitter.svg");
-    -webkit-mask-repeat: no-repeat,no-repeat,no-repeat;
-    mask-repeat: no-repeat,no-repeat,no-repeat;
-    -webkit-mask-position: left,center,right;
-    mask-position: left,center,right;
-    margin-top: 4rem;
+.fa-brands {
+    margin-top: 2rem;
+    width: 3rem;
+    cursor: pointer;
+    transition: color 0.3s;
 }
+.fa-square-facebook:hover {
+    color: #4267B2;
+}
+.fa-instagram:hover {
+    color: #F56040;
+}
+.fa-twitter:hover {
+    color: #00acee;
+}
+
 
 /*-----subscribe-------*/
 
@@ -333,7 +337,7 @@ footer > img {
         margin-left: 1.6rem;
     }
     .social-media {
-        margin:4.5rem 0 5rem 4.5rem;
+        margin:2rem 0 5rem ;
     }
     .email-input {
         margin-left: 1.7rem;
